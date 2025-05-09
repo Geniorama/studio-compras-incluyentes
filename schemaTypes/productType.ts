@@ -26,14 +26,8 @@ export default defineType({
     {
       name: 'category',
       title: 'Categoría',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'Tecnología', value: 'tecnologia'},
-          {title: 'Hogar', value: 'hogar'},
-          {title: 'Oficina', value: 'oficina'},
-        ],
-      },
+      type: 'reference',
+      to: [{type: 'category'}],
       validation: (Rule) => Rule.required(),
     },
     {
