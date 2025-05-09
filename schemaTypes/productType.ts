@@ -6,10 +6,10 @@ export default defineType({
   type: 'document',
   fields: [
     {
-      name: 'user',
-      title: 'Usuario',
+      name: 'company',
+      title: 'Empresa',
       type: 'reference',
-      to: [{type: 'user'}],
+      to: [{type: 'company'}],
       validation: (Rule) => Rule.required(),
     },
     {
@@ -65,6 +65,21 @@ export default defineType({
       name: 'sku',
       title: 'SKU',
       type: 'string',
+    },
+    // Campos de auditoría de usuario
+    {
+      name: 'createdBy',
+      title: 'Creado por',
+      type: 'reference',
+      to: [{type: 'user'}],
+      readOnly: true,
+    },
+    {
+      name: 'updatedBy',
+      title: 'Actualizado por',
+      type: 'reference',
+      to: [{type: 'user'}],
+      readOnly: true,
     },
   ],
 })
