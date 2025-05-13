@@ -25,10 +25,12 @@ export default defineType({
     },
     {
       name: 'category',
-      title: 'Categoría',
-      type: 'reference',
-      to: [{type: 'category'}],
-      validation: (Rule) => Rule.required(),
+      title: 'Categorías',
+      type: 'array',
+      of: [
+        { type: 'reference', to: [{ type: 'category' }] }
+      ],
+      validation: (Rule) => Rule.required().min(1),
     },
     {
       name: 'price',
