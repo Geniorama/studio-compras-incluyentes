@@ -19,16 +19,26 @@ export default defineType({
     },
     {
       name: 'sender',
-      title: 'Remitente',
+      title: 'Usuario remitente',
       type: 'reference',
       to: [{ type: 'user' }],
-      // Puede ser opcional si el mensaje lo envía el sistema
+      description: 'Usuario específico que envió el mensaje',
+      validation: Rule => Rule.required()
     },
     {
-      name: 'company',
+      name: 'senderCompany',
+      title: 'Empresa remitente',
+      type: 'reference',
+      to: [{ type: 'company' }],
+      description: 'Empresa desde la cual se envía el mensaje',
+      validation: Rule => Rule.required()
+    },
+    {
+      name: 'recipientCompany',
       title: 'Empresa destinataria',
       type: 'reference',
       to: [{ type: 'company' }],
+      description: 'Empresa que recibe el mensaje',
       validation: Rule => Rule.required()
     },
     {
@@ -57,11 +67,13 @@ export default defineType({
       type: 'string',
       options: {
         list: [
+          { title: 'Mensaje entre empresas', value: 'company_message' },
           { title: 'Notificación', value: 'notification' },
           { title: 'Soporte', value: 'support' },
           { title: 'Alerta', value: 'alert' }
         ]
-      }
+      },
+      initialValue: 'company_message'
     }
   ],
   orderings: [
@@ -76,15 +88,16 @@ export default defineType({
   preview: {
     select: {
       sender: 'sender.firstName',
-      company: 'company.nameCompany',
+      senderCompany: 'senderCompany.nameCompany',
+      recipientCompany: 'recipientCompany.nameCompany',
       subject: 'subject',
       content: 'content'
     },
     prepare(selection) {
-      const {sender, company, subject, content} = selection;
+      const {sender, senderCompany, recipientCompany, subject, content} = selection;
       return {
         title: subject || content?.substring(0, 50) + '...',
-        subtitle: `De: ${sender || 'Sistema'} → Empresa: ${company || 'N/A'}`
+        subtitle: `${senderCompany || 'N/A'} → ${recipientCompany || 'N/A'} (por: ${sender || 'N/A'})`
       };
     }
   },
