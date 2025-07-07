@@ -55,6 +55,18 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'department',
+      title: 'Departamento',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'city',
+      title: 'Ciudad',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
       name: 'logo',
       title: 'Logo de la empresa',
       type: 'image',
