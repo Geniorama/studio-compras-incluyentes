@@ -104,7 +104,7 @@ export default defineType({
       readOnly: true,
     }),
     defineField({
-      name: 'active',
+      name: 'membership',
       title: '¿Tienes una membresía activa?',
       type: 'boolean',
       readOnly: true,
