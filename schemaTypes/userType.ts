@@ -103,6 +103,14 @@ export default defineType({
       type: 'datetime',
       readOnly: true,
     }),
+    defineField({
+      name: 'active',
+      title: '¿Tienes una membresía activa?',
+      type: 'boolean',
+      readOnly: true,
+      initialValue: false,
+      description: 'Campo diligenciado por el usuario en el formulario de registro.',
+    }),
   ],
   preview: {
     select: {
