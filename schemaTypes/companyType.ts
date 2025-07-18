@@ -89,6 +89,37 @@ export default defineType({
       initialValue: 'micro',
       validation: (Rule) => Rule.required(),
     }),
+
+    defineField({
+      name: 'peopleGroup',
+      title: 'Grupo poblacional',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Diversidad Sexual', value: 'diversidad-sexual' },
+          { title: 'Personas con discapacidad', value: 'personas-discapacidad' },
+          { title: 'Etnia, raza o afro', value: 'etnia-raza-afro' },
+          { title: 'Personas migrantes', value: 'personas-migrantes' },
+          { title: 'Generacional', value: 'generacional' },
+          { title: 'Equidad de Género', value: 'equidad-genero' },
+          { title: 'Pospenados o reinsertados', value: 'pospenados-reinsertados' },
+          { title: 'Ninguno', value: 'ninguno' },
+          { title: 'Otro', value: 'otro' },
+        ],
+      },
+    }),
+    defineField({
+      name: 'otherPeopleGroup',
+      title: 'Especificar otro grupo poblacional',
+      type: 'string',
+      hidden: ({document}) => document?.peopleGroup !== 'otro',
+      validation: (Rule) => Rule.custom((value, context) => {
+        if (context.document?.peopleGroup === 'otro' && !value) {
+          return 'Debe especificar el grupo poblacional cuando selecciona "Otro"';
+        }
+        return true;
+      }),
+    }),
     // Campo para activar/desactivar la empresa
     defineField({
       name: 'active',
