@@ -75,6 +75,20 @@ export default defineType({
       },
       validation: (Rule) => Rule.required(),
     }),
+    defineField({
+      name: 'companySize',
+      title: 'Tamaño de la empresa',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Micro', value: 'micro' },
+          { title: 'Mediana', value: 'mediana' },
+          { title: 'Grande', value: 'grande' },
+        ],
+      },
+      initialValue: 'micro',
+      validation: (Rule) => Rule.required(),
+    }),
     // Campo para activar/desactivar la empresa
     defineField({
       name: 'active',
