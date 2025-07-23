@@ -92,6 +92,7 @@ export default defineType({
           { title: 'Pequeña', value: 'pequena' },
           { title: 'Mediana', value: 'mediana' },
           { title: 'Grande', value: 'grande' },
+          { title: 'Indefinido', value: 'indefinido' },
         ],
       },
       initialValue: 'micro',
