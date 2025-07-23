@@ -137,6 +137,14 @@ export default defineType({
       initialValue: false,
       description: 'Marca esta casilla para activar la empresa y permitir el acceso de sus usuarios.',
     }),
+
+    defineField({
+      name: 'friendlyBizz',
+      title: '¿La empresa está certificada con el sello Friendly Bizz?',
+      type: 'boolean',
+      initialValue: false,
+    }),
+
     // Redes sociales
     defineField({
       name: 'facebook',
