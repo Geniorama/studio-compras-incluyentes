@@ -89,6 +89,7 @@ export default defineType({
       options: {
         list: [
           { title: 'Micro', value: 'micro' },
+          { title: 'Pequeña', value: 'pequena' },
           { title: 'Mediana', value: 'mediana' },
           { title: 'Grande', value: 'grande' },
         ],
