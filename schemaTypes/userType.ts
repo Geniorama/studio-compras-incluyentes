@@ -111,6 +111,20 @@ export default defineType({
       initialValue: false,
       description: 'Campo diligenciado por el usuario en el formulario de registro.',
     }),
+    defineField({
+      name: 'dataTreatmentConsent',
+      title: 'Aceptación de tratamiento de datos personales',
+      type: 'boolean',
+      description: 'Debes aceptar el tratamiento de tus datos personales para registrarte.',
+      validation: (Rule) => Rule.required().custom(value => value === true ? true : 'Debes aceptar el tratamiento de datos personales'),
+    }),
+    defineField({
+      name: 'infoVisibilityConsent',
+      title: 'Autorización de visibilidad de información',
+      type: 'boolean',
+      description: 'Autorizo que mi información sea visible en la plataforma para otros usuarios y empresas.',
+      validation: (Rule) => Rule.required().custom(value => value === true ? true : 'Debes autorizar la visibilidad de tu información para continuar'),
+    }),
   ],
   preview: {
     select: {
