@@ -147,6 +147,13 @@ export default defineType({
       hidden: ({document}) => document?.companySize !== 'grande',
     }),
 
+    defineField({
+      // annual revenue
+      name: 'annualRevenue',
+      title: 'Ingresos anuales',
+      type: 'number',
+    }),
+
     // Redes sociales
     defineField({
       name: 'facebook',
