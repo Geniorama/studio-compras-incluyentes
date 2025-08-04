@@ -3,7 +3,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "A0112 ** Cultivo de arroz"
     },
     {
-      "clasificacion_ciiu": "A0113 ** Cultivo de hortalizas raices y tuberculos"
+      "clasificacion_ciiu": "A0113 ** Cultivo de hortalizas  raices y tuberculos"
     },
     {
       "clasificacion_ciiu": "A0119 ** Otros cultivos transitorios n.c.p."
@@ -21,7 +21,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "A0127 ** Cultivo de plantas con las que se preparan bebidas"
     },
     {
-      "clasificacion_ciiu": "A0128 ** Cultivo de especias y de plantas aromaticas y medicinales ají pimiento"
+      "clasificacion_ciiu": "A0128 ** Cultivo de especias y de plantas aromaticas y medicinales"
     },
     {
       "clasificacion_ciiu": "A0129 ** Otros cultivos permanentes n.c.p."
@@ -177,73 +177,73 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "C1811 ** Actividades de impresion"
     },
     {
-      "clasificacion_ciiu": "C1812 ** Actividades de servicios relacionados con la impresión"
+      "clasificacion_ciiu": "C1812 ** Actividades de servicios relacionados con la impresion"
     },
     {
-      "clasificacion_ciiu": "C1820 ** Reproducción de grabaciones"
+      "clasificacion_ciiu": "C1820 ** Reproduccion de grabaciones"
     },
     {
-      "clasificacion_ciiu": "C2011 ** Fabricación de sustancias y productos químicos básicos"
+      "clasificacion_ciiu": "C2011 ** Fabricacion de sustancias y productos quimicos basicos"
     },
     {
-      "clasificacion_ciiu": "C2012 ** Fabricación de abonos y compuestos inorgánicos nitrogenados"
+      "clasificacion_ciiu": "C2012 ** Fabricacion de abonos y compuestos inorganicos nitrogenados"
     },
     {
-      "clasificacion_ciiu": "C2013 ** Fabricación de plásticos en formas primarias"
+      "clasificacion_ciiu": "C2013 ** Fabricacion de plasticos en formas primarias"
     },
     {
-      "clasificacion_ciiu": "C2021 ** Fabricación de plaguicidas y otros productos químicos de uso agropecuario"
+      "clasificacion_ciiu": "C2021 ** Fabricacion de plaguicidas y otros productos quimicos de uso agropecuario"
     },
     {
-      "clasificacion_ciiu": "C2022 ** Fabricación de pinturas, barnices y revestimientos similares, tintas de impresión y masillas"
+      "clasificacion_ciiu": "C2022 ** Fabricacion de pinturas, barnices y revestimientos similares, tintas de impresion y masillas"
     },
     {
-      "clasificacion_ciiu": "C2023 ** Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador"
+      "clasificacion_ciiu": "C2023 ** Fabricacion de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador"
     },
     {
-      "clasificacion_ciiu": "C2029 ** Fabricación de otros productos químicos n.c.p."
+      "clasificacion_ciiu": "C2029 ** Fabricacion de otros productos quimicos n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2030 ** Fabricación de fibras sintéticas y artificiales"
+      "clasificacion_ciiu": "C2030 ** Fabricacion de fibras sinteticas y artificiales"
     },
     {
-      "clasificacion_ciiu": "C2100 ** Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+      "clasificacion_ciiu": "C2100 ** Fabricacion de productos farmaceuticos, sustancias quimicas medicinales y productos botanicos de uso farmaceutico"
     },
     {
-      "clasificacion_ciiu": "C2221 ** Fabricación de láminas, placas, tubos y perfiles de plástico"
+      "clasificacion_ciiu": "C2221 ** Fabricacion de laminas, placas, tubos y perfiles de plastico"
     },
     {
-      "clasificacion_ciiu": "C2229 ** Fabricación de otros productos de plástico n.c.p."
+      "clasificacion_ciiu": "C2229 ** Fabricacion de otros productos de plastico n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2394 ** Fabricación de cemento, cal y yeso"
+      "clasificacion_ciiu": "C2394 ** Fabricacion de cemento, cal y yeso"
     },
     {
-      "clasificacion_ciiu": "C2395 ** Fabricación de artículos de hormigón, cemento y yeso"
+      "clasificacion_ciiu": "C2395 ** Fabricacion de articulos de hormigon, cemento y yeso"
     },
     {
       "clasificacion_ciiu": "C2396 ** Corte, tallado y acabado de la piedra"
     },
     {
-      "clasificacion_ciiu": "C2399 ** Fabricación de otros productos minerales no metálicos n.c.p."
+      "clasificacion_ciiu": "C2399 ** Fabricacion de otros productos minerales no metalicos n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2410 ** Fabricación de productos básicos de hierro y acero"
+      "clasificacion_ciiu": "C2410 ** Fabricacion de productos basicos de hierro y acero"
     },
     {
-      "clasificacion_ciiu": "C2429 ** Fabricación de otros productos de metales no ferrosos n.c.p."
+      "clasificacion_ciiu": "C2429 ** Fabricacion de otros productos de metales no ferrosos n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2511 ** Fabricación de estructuras metálicas y sus partes"
+      "clasificacion_ciiu": "C2511 ** Fabricacion de estructuras metalicas y sus partes"
     },
     {
-      "clasificacion_ciiu": "C2512 ** Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para gases comprimidos o licuados"
+      "clasificacion_ciiu": "C2512 ** Fabricacion de tanques, depositos y recipientes de metal, excepto los utilizados para gases comprimidos o licuados"
     },
     {
-      "clasificacion_ciiu": "C2513 ** Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central"
+      "clasificacion_ciiu": "C2513 ** Fabricacion de generadores de vapor, excepto calderas de agua caliente para calefaccion central"
     },
     {
-      "clasificacion_ciiu": "C2520 ** Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería"
+      "clasificacion_ciiu": "C2520 ** Fabricacion de articulos de cuchilleria, herramientas de mano y articulos de ferreteria"
     },
     {
       "clasificacion_ciiu": "C2591 ** Forja, prensado, estampado y laminado de metales; pulvimetalurgia"
@@ -252,202 +252,202 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "C2592 ** Tratamiento y revestimiento de metales; maquinado"
     },
     {
-      "clasificacion_ciiu": "C2599 ** Fabricación de otros productos elaborados de metal n.c.p."
+      "clasificacion_ciiu": "C2599 ** Fabricacion de otros productos elaborados de metal n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2610 ** Fabricación de componentes y tableros electrónicos"
+      "clasificacion_ciiu": "C2610 ** Fabricacion de componentes y tableros electronicos"
     },
     {
-      "clasificacion_ciiu": "C2620 ** Fabricación de computadores y equipo periférico"
+      "clasificacion_ciiu": "C2620 ** Fabricacion de computadores y equipo periferico"
     },
     {
-      "clasificacion_ciiu": "C2630 ** Fabricación de equipos de comunicación"
+      "clasificacion_ciiu": "C2630 ** Fabricacion de equipos de comunicacion"
     },
     {
-      "clasificacion_ciiu": "C2651 ** Fabricación de instrumentos de medida, control y navegación, excepto el equipo de control de procesos industriales"
+      "clasificacion_ciiu": "C2651 ** Fabricacion de instrumentos de medida, control y navegacion, excepto el equipo de control de procesos industriales"
     },
     {
-      "clasificacion_ciiu": "C2652 ** Fabricación de relojes"
+      "clasificacion_ciiu": "C2652 ** Fabricacion de relojes"
     },
     {
-      "clasificacion_ciiu": "C2711 ** Fabricación de motores, generadores y transformadores eléctricos"
+      "clasificacion_ciiu": "C2711 ** Fabricacion de motores, generadores y transformadores electricos"
     },
     {
-      "clasificacion_ciiu": "C2712 ** Fabricación de aparatos de distribución y control de la energía eléctrica"
+      "clasificacion_ciiu": "C2712 ** Fabricacion de aparatos de distribucion y control de la energia electrica"
     },
     {
-      "clasificacion_ciiu": "C2720 ** Fabricación de pilas y acumuladores"
+      "clasificacion_ciiu": "C2720 ** Fabricacion de pilas y acumuladores"
     },
     {
-      "clasificacion_ciiu": "C2731 ** Fabricación de cables de fibra óptica"
+      "clasificacion_ciiu": "C2731 ** Fabricacion de cables de fibra optica"
     },
     {
-      "clasificacion_ciiu": "C2732 ** Fabricación de otros hilos y cables electrónicos y eléctricos"
+      "clasificacion_ciiu": "C2732 ** Fabricacion de otros hilos y cables electronicos y electricos"
     },
     {
-      "clasificacion_ciiu": "C2750 ** Fabricación de aparatos de uso doméstico"
+      "clasificacion_ciiu": "C2750 ** Fabricacion de aparatos de uso domestico"
     },
     {
-      "clasificacion_ciiu": "C2790 ** Fabricación de otros tipos de equipo eléctrico n.c.p."
+      "clasificacion_ciiu": "C2790 ** Fabricacion de otros tipos de equipo electrico n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2812 ** Fabricación de maquinaria y equipo de uso general n.c.p."
+      "clasificacion_ciiu": "C2812 ** Fabricacion de maquinaria y equipo de uso general n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2813 ** Fabricación de maquinaria agropecuaria y forestal"
+      "clasificacion_ciiu": "C2813 ** Fabricacion de maquinaria agropecuaria y forestal"
     },
     {
-      "clasificacion_ciiu": "C2816 ** Fabricación de maquinaria para la metalurgia"
+      "clasificacion_ciiu": "C2816 ** Fabricacion de maquinaria para la metalurgia"
     },
     {
-      "clasificacion_ciiu": "C2817 ** Fabricación de maquinaria para la extracción de minas y canteras y para la construcción"
+      "clasificacion_ciiu": "C2817 ** Fabricacion de maquinaria para la extraccion de minas y canteras y para la construccion"
     },
     {
-      "clasificacion_ciiu": "C2818 ** Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco"
+      "clasificacion_ciiu": "C2818 ** Fabricacion de maquinaria para la elaboracion de alimentos, bebidas y tabaco"
     },
     {
-      "clasificacion_ciiu": "C2819 ** Fabricación de otros tipos de maquinaria de uso especial n.c.p."
+      "clasificacion_ciiu": "C2819 ** Fabricacion de otros tipos de maquinaria de uso especial n.c.p."
     },
     {
-      "clasificacion_ciiu": "C2821 ** Fabricación de vehículos automotores"
+      "clasificacion_ciiu": "C2821 ** Fabricacion de vehiculos automotores"
     },
     {
-      "clasificacion_ciiu": "C2822 ** Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques"
+      "clasificacion_ciiu": "C2822 ** Fabricacion de carrocerias para vehiculos automotores; fabricacion de remolques y semirremolques"
     },
     {
-      "clasificacion_ciiu": "C2823 ** Fabricación de partes, piezas y accesorios (autopartes) para vehículos automotores"
+      "clasificacion_ciiu": "C2823 ** Fabricacion de partes, piezas y accesorios (autopartes) para vehiculos automotores"
     },
     {
-      "clasificacion_ciiu": "C3100 ** Fabricación de muebles"
+      "clasificacion_ciiu": "C3100 ** Fabricacion de muebles"
     },
     {
-      "clasificacion_ciiu": "C3210 ** Fabricación de joyas, bisutería y artículos conexos"
+      "clasificacion_ciiu": "C3210 ** Fabricacion de joyas, bisuteria y articulos conexos"
     },
     {
-      "clasificacion_ciiu": "C3220 ** Fabricación de instrumentos musicales"
+      "clasificacion_ciiu": "C3220 ** Fabricacion de instrumentos musicales"
     },
     {
-      "clasificacion_ciiu": "C3230 ** Fabricación de artículos de deporte"
+      "clasificacion_ciiu": "C3230 ** Fabricacion de articulos de deporte"
     },
     {
-      "clasificacion_ciiu": "C3240 ** Fabricación de juegos y juguetes"
+      "clasificacion_ciiu": "C3240 ** Fabricacion de juegos y juguetes"
     },
     {
-      "clasificacion_ciiu": "C3250 ** Fabricación de instrumentos, aparatos y materiales médicos y odontológicos, y de laboratorio"
+      "clasificacion_ciiu": "C3250 ** Fabricacion de instrumentos, aparatos y materiales medicos y odontologicos, y de laboratorio"
     },
     {
       "clasificacion_ciiu": "C3290 ** Otras industrias manufactureras n.c.p."
     },
     {
-      "clasificacion_ciiu": "C3311 ** Mantenimiento y reparación de productos elaborados de metal"
+      "clasificacion_ciiu": "C3311 ** Mantenimiento y reparacion de productos elaborados de metal"
     },
     {
-      "clasificacion_ciiu": "C3312 ** Mantenimiento y reparación de maquinaria y equipo"
+      "clasificacion_ciiu": "C3312 ** Mantenimiento y reparacion de maquinaria y equipo"
     },
     {
-      "clasificacion_ciiu": "C3313 ** Mantenimiento y reparación de equipo electrónico y óptico"
+      "clasificacion_ciiu": "C3313 ** Mantenimiento y reparacion de equipo electronico y optico"
     },
     {
-      "clasificacion_ciiu": "C3314 ** Mantenimiento y reparación de equipo eléctrico"
+      "clasificacion_ciiu": "C3314 ** Mantenimiento y reparacion de equipo electrico"
     },
     {
-      "clasificacion_ciiu": "C3319 ** Mantenimiento y reparación de otros tipos de equipo n.c.p."
+      "clasificacion_ciiu": "C3319 ** Mantenimiento y reparacion de otros tipos de equipo n.c.p."
     },
     {
-      "clasificacion_ciiu": "C3320 ** Instalación de maquinaria y equipos industriales"
+      "clasificacion_ciiu": "C3320 ** Instalacion de maquinaria y equipos industriales"
     },
     {
-      "clasificacion_ciiu": "D3511 ** Generación de energía eléctrica"
+      "clasificacion_ciiu": "D3511 ** Generacion de energia electrica"
     },
     {
-      "clasificacion_ciiu": "D3512 ** Transmisión de energía eléctrica"
+      "clasificacion_ciiu": "D3512 ** Transmision de energia electrica"
     },
     {
-      "clasificacion_ciiu": "D3513 ** Distribución de energía eléctrica"
+      "clasificacion_ciiu": "D3513 ** Distribucion de energia electrica"
     },
     {
-      "clasificacion_ciiu": "D3514 ** Comercialización de energía eléctrica"
+      "clasificacion_ciiu": "D3514 ** Comercializacion de energia electrica"
     },
     {
-      "clasificacion_ciiu": "D3520 ** Producción de gas; distribución de combustibles gaseosos por tubería"
+      "clasificacion_ciiu": "D3520 ** Produccion de gas; distribucion de combustibles gaseosos por tuberia"
     },
     {
-      "clasificacion_ciiu": "E3600 ** Captación, tratamiento y distribución de agua"
+      "clasificacion_ciiu": "E3600 ** Captacion, tratamiento y distribucion de agua"
     },
     {
-      "clasificacion_ciiu": "E3700 ** Evacuación y tratamiento de aguas residuales"
+      "clasificacion_ciiu": "E3700 ** Evacuacion y tratamiento de aguas residuales"
     },
     {
-      "clasificacion_ciiu": "E3811 ** Recolección de desechos no peligrosos"
+      "clasificacion_ciiu": "E3811 ** Recoleccion de desechos no peligrosos"
     },
     {
-      "clasificacion_ciiu": "E3812 ** Recolección de desechos peligrosos"
+      "clasificacion_ciiu": "E3812 ** Recoleccion de desechos peligrosos"
     },
     {
-      "clasificacion_ciiu": "E3821 ** Tratamiento y disposición de desechos no peligrosos"
+      "clasificacion_ciiu": "E3821 ** Tratamiento y disposicion de desechos no peligrosos"
     },
     {
-      "clasificacion_ciiu": "E3822 ** Tratamiento y disposición de desechos peligrosos"
+      "clasificacion_ciiu": "E3822 ** Tratamiento y disposicion de desechos peligrosos"
     },
     {
-      "clasificacion_ciiu": "E3830 ** Recuperación de materiales"
+      "clasificacion_ciiu": "E3830 ** Recuperacion de materiales"
     },
     {
-      "clasificacion_ciiu": "F4110 ** Construcción de edificios residenciales"
+      "clasificacion_ciiu": "F4110 ** Construccion de edificios residenciales"
     },
     {
-      "clasificacion_ciiu": "F4120 ** Construcción de edificios no residenciales"
+      "clasificacion_ciiu": "F4120 ** Construccion de edificios no residenciales"
     },
     {
-      "clasificacion_ciiu": "F4210 ** Construcción de carreteras y vías de ferrocarril"
+      "clasificacion_ciiu": "F4210 ** Construccion de carreteras y vias de ferrocarril"
     },
     {
-      "clasificacion_ciiu": "F4220 ** Construcción de proyectos de servicio público"
+      "clasificacion_ciiu": "F4220 ** Construccion de proyectos de servicio publico"
     },
     {
-      "clasificacion_ciiu": "F4290 ** Construcción de otras obras de ingeniería civil n.c.p."
+      "clasificacion_ciiu": "F4290 ** Construccion de otras obras de ingenieria civil n.c.p."
     },
     {
-      "clasificacion_ciiu": "F4311 ** Demolición"
+      "clasificacion_ciiu": "F4311 ** Demolicion"
     },
     {
-      "clasificacion_ciiu": "F4312 ** Preparación del terreno"
+      "clasificacion_ciiu": "F4312 ** Preparacion del terreno"
     },
     {
-      "clasificacion_ciiu": "F4321 ** Instalaciones eléctricas"
+      "clasificacion_ciiu": "F4321 ** Instalaciones electricas"
     },
     {
-      "clasificacion_ciiu": "F4322 ** Instalaciones de fontanería, calefacción y aire acondicionado"
+      "clasificacion_ciiu": "F4322 ** Instalaciones de fontaneria, calefaccion y aire acondicionado"
     },
     {
       "clasificacion_ciiu": "F4329 ** Otras instalaciones especializadas"
     },
     {
-      "clasificacion_ciiu": "F4330 ** Terminación y acabado de edificios"
+      "clasificacion_ciiu": "F4330 ** Terminacion y acabado de edificios"
     },
     {
-      "clasificacion_ciiu": "F4390 ** Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil"
+      "clasificacion_ciiu": "F4390 ** Otras actividades especializadas para la construccion de edificios y obras de ingenieria civil"
     },
     {
-      "clasificacion_ciiu": "G4511 ** Comercio de vehículos automotores nuevos"
+      "clasificacion_ciiu": "G4511 ** Comercio de vehiculos automotores nuevos"
     },
     {
-      "clasificacion_ciiu": "G4512 ** Comercio de vehículos automotores usados"
+      "clasificacion_ciiu": "G4512 ** Comercio de vehiculos automotores usados"
     },
     {
-      "clasificacion_ciiu": "G4520 ** Mantenimiento y reparación de vehículos automotores"
+      "clasificacion_ciiu": "G4520 ** Mantenimiento y reparacion de vehiculos automotores"
     },
     {
-      "clasificacion_ciiu": "G4530 ** Comercio de partes, piezas (autopartes) y accesorios para vehículos automotores"
+      "clasificacion_ciiu": "G4530 ** Comercio de partes, piezas (autopartes) y accesorios para vehiculos automotores"
     },
     {
       "clasificacion_ciiu": "G4541 ** Comercio de motocicletas y de sus partes, piezas y accesorios"
     },
     {
-      "clasificacion_ciiu": "G4542 ** Mantenimiento y reparación de motocicletas y de sus partes y piezas"
+      "clasificacion_ciiu": "G4542 ** Mantenimiento y reparacion de motocicletas y de sus partes y piezas"
     },
     {
-      "clasificacion_ciiu": "G4610 ** Comercio al por mayor a cambio de una retribución o por contrata"
+      "clasificacion_ciiu": "G4610 ** Comercio al por mayor a cambio de una retribucion o por contrata"
     },
     {
       "clasificacion_ciiu": "G4620 ** Comercio al por mayor de materias primas agropecuarias; animales vivos"
@@ -459,31 +459,31 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "G4632 ** Comercio al por mayor de bebidas y productos del tabaco"
     },
     {
-      "clasificacion_ciiu": "G4641 ** Comercio al por mayor de productos textiles, prendas de vestir, calzado y artículos de cuero"
+      "clasificacion_ciiu": "G4641 ** Comercio al por mayor de productos textiles, prendas de vestir, calzado y articulos de cuero"
     },
     {
-      "clasificacion_ciiu": "G4642 ** Comercio al por mayor de artículos para el hogar"
+      "clasificacion_ciiu": "G4642 ** Comercio al por mayor de articulos para el hogar"
     },
     {
-      "clasificacion_ciiu": "G4643 ** Comercio al por mayor de aparatos y equipo de uso doméstico"
+      "clasificacion_ciiu": "G4643 ** Comercio al por mayor de aparatos y equipo de uso domestico"
     },
     {
-      "clasificacion_ciiu": "G4644 ** Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador"
+      "clasificacion_ciiu": "G4644 ** Comercio al por mayor de productos farmaceuticos, medicinales, cosmeticos y de tocador"
     },
     {
       "clasificacion_ciiu": "G4645 ** Comercio al por mayor de maquinaria y equipo de oficina"
     },
     {
-      "clasificacion_ciiu": "G4646 ** Comercio al por mayor de instrumentos y equipos médicos y quirúrgicos"
+      "clasificacion_ciiu": "G4646 ** Comercio al por mayor de instrumentos y equipos medicos y quirurgicos"
     },
     {
-      "clasificacion_ciiu": "G4649 ** Comercio al por mayor de otros productos de uso doméstico n.c.p."
+      "clasificacion_ciiu": "G4649 ** Comercio al por mayor de otros productos de uso domestico n.c.p."
     },
     {
-      "clasificacion_ciiu": "G4651 ** Comercio al por mayor de computadores, equipo periférico y programas de informática"
+      "clasificacion_ciiu": "G4651 ** Comercio al por mayor de computadores, equipo periferico y programas de informatica"
     },
     {
-      "clasificacion_ciiu": "G4652 ** Comercio al por mayor de equipo electrónico y de telecomunicaciones y sus partes y piezas"
+      "clasificacion_ciiu": "G4652 ** Comercio al por mayor de equipo electronico y de telecomunicaciones y sus partes y piezas"
     },
     {
       "clasificacion_ciiu": "G4653 ** Comercio al por mayor de maquinaria y equipo agropecuario"
@@ -492,13 +492,13 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "G4659 ** Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p."
     },
     {
-      "clasificacion_ciiu": "G4661 ** Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos"
+      "clasificacion_ciiu": "G4661 ** Comercio al por mayor de combustibles solidos, liquidos, gaseosos y productos conexos"
     },
     {
-      "clasificacion_ciiu": "G4662 ** Comercio al por mayor de metales y productos metalíferos"
+      "clasificacion_ciiu": "G4662 ** Comercio al por mayor de metales y productos metaliferos"
     },
     {
-      "clasificacion_ciiu": "G4663 ** Comercio al por mayor de materiales de construcción, artículos de ferretería, productos de vidrio y equipo y materiales de fontanería y calefacción"
+      "clasificacion_ciiu": "G4663 ** Comercio al por mayor de materiales de construccion, articulos de ferreteria, productos de vidrio y equipo y materiales de fontaneria y calefaccion"
     },
     {
       "clasificacion_ciiu": "G4669 ** Comercio al por mayor de otros productos n.c.p."
@@ -507,22 +507,22 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "G4711 ** Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco"
     },
     {
-      "clasificacion_ciiu": "G4719 ** Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco"
+      "clasificacion_ciiu": "G4719 ** Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (viveres en general), bebidas y tabaco"
     },
     {
-      "clasificacion_ciiu": "G4721 ** Comercio al por menor de alimentos (víveres en general), bebidas y tabaco, en establecimientos especializados"
+      "clasificacion_ciiu": "G4721 ** Comercio al por menor de alimentos (viveres en general), bebidas y tabaco, en establecimientos especializados"
     },
     {
       "clasificacion_ciiu": "G4722 ** Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4731 ** Comercio al por menor de combustible para vehículos automotores"
+      "clasificacion_ciiu": "G4731 ** Comercio al por menor de combustible para vehiculos automotores"
     },
     {
-      "clasificacion_ciiu": "G4732 ** Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores"
+      "clasificacion_ciiu": "G4732 ** Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehiculos automotores"
     },
     {
-      "clasificacion_ciiu": "G4741 ** Comercio al por menor de equipos nuevos de informática, de uso personal y doméstico"
+      "clasificacion_ciiu": "G4741 ** Comercio al por menor de equipos nuevos de informatica, de uso personal y domestico"
     },
     {
       "clasificacion_ciiu": "G4742 ** Comercio al por menor de equipos y aparatos de audio y video, en establecimientos especializados"
@@ -531,100 +531,100 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "G4751 ** Comercio al por menor de productos textiles en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4752 ** Comercio al por menor de artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción"
+      "clasificacion_ciiu": "G4752 ** Comercio al por menor de articulos de ferreteria, pinturas, productos de vidrio, equipo y materiales de fontaneria y calefaccion"
     },
     {
       "clasificacion_ciiu": "G4753 ** Comercio al por menor de alfombras, cortinas, revestimientos para paredes y pisos"
     },
     {
-      "clasificacion_ciiu": "G4754 ** Comercio al por menor de aparatos electrodomésticos, muebles, equipos de iluminación y otros artículos para el hogar"
+      "clasificacion_ciiu": "G4754 ** Comercio al por menor de aparatos electrodomesticos, muebles, equipos de iluminacion y otros articulos para el hogar"
     },
     {
-      "clasificacion_ciiu": "G4755 ** Comercio al por menor de artículos de madera y productos similares, como puertas, ventanas, marcos, etc."
+      "clasificacion_ciiu": "G4755 ** Comercio al por menor de articulos de madera y productos similares, como puertas, ventanas, marcos, etc."
     },
     {
-      "clasificacion_ciiu": "G4756 ** Comercio al por menor de libros, periódicos, materiales y artículos de papelería"
+      "clasificacion_ciiu": "G4756 ** Comercio al por menor de libros, periodicos, materiales y articulos de papeleria"
     },
     {
-      "clasificacion_ciiu": "G4759 ** Comercio al por menor de otros artículos de uso doméstico en establecimientos especializados"
+      "clasificacion_ciiu": "G4759 ** Comercio al por menor de otros articulos de uso domestico en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4761 ** Comercio al por menor de artículos deportivos y recreativos en establecimientos especializados"
+      "clasificacion_ciiu": "G4761 ** Comercio al por menor de articulos deportivos y recreativos en establecimientos especializados"
     },
     {
       "clasificacion_ciiu": "G4762 ** Comercio al por menor de prendas de vestir y sus accesorios en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4763 ** Comercio al por menor de calzado y artículos de cuero en establecimientos especializados"
+      "clasificacion_ciiu": "G4763 ** Comercio al por menor de calzado y articulos de cuero en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4764 ** Comercio al por menor de artículos de relojería y joyería en establecimientos especializados"
+      "clasificacion_ciiu": "G4764 ** Comercio al por menor de articulos de relojeria y joyeria en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4765 ** Comercio al por menor de productos farmacéuticos y medicinales, productos de cosmética y tocador en establecimientos especializados"
+      "clasificacion_ciiu": "G4765 ** Comercio al por menor de productos farmaceuticos y medicinales, productos de cosmetica y tocador en establecimientos especializados"
     },
     {
-      "clasificacion_ciiu": "G4771 ** Comercio al por menor de artículos usados"
+      "clasificacion_ciiu": "G4771 ** Comercio al por menor de articulos usados"
     },
     {
       "clasificacion_ciiu": "G4772 ** Comercio al por menor de otros productos en establecimientos especializados n.c.p."
     },
     {
-      "clasificacion_ciiu": "G4781 ** Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles"
+      "clasificacion_ciiu": "G4781 ** Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta moviles"
     },
     {
-      "clasificacion_ciiu": "G4782 ** Comercio al por menor de otros productos, en puestos de venta móviles"
+      "clasificacion_ciiu": "G4782 ** Comercio al por menor de otros productos, en puestos de venta moviles"
     },
     {
       "clasificacion_ciiu": "G4791 ** Comercio al por menor realizado por medio de la internet"
     },
     {
-      "clasificacion_ciiu": "G4792 ** Comercio al por menor realizado a través de casas de venta por correo o por medio de vendedores no especializados"
+      "clasificacion_ciiu": "G4792 ** Comercio al por menor realizado a traves de casas de venta por correo o por medio de vendedores no especializados"
     },
     {
       "clasificacion_ciiu": "G4799 ** Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o por medio de internet"
     },
     {
-      "clasificacion_ciiu": "H4911 ** Transporte de pasajeros por vía férrea"
+      "clasificacion_ciiu": "H4911 ** Transporte de pasajeros por via ferrea"
     },
     {
-      "clasificacion_ciiu": "H4912 ** Transporte de carga por vía férrea"
+      "clasificacion_ciiu": "H4912 ** Transporte de carga por via ferrea"
     },
     {
-      "clasificacion_ciiu": "H4921 ** Transporte de pasajeros por vía terrestre"
+      "clasificacion_ciiu": "H4921 ** Transporte de pasajeros por via terrestre"
     },
     {
       "clasificacion_ciiu": "H4922 ** Transporte de carga por carretera"
     },
     {
-      "clasificacion_ciiu": "H4923 ** Transporte de pasajeros y/o carga por medio de tuberías"
+      "clasificacion_ciiu": "H4923 ** Transporte de pasajeros y/o carga por medio de tuberias"
     },
     {
-      "clasificacion_ciiu": "H5011 ** Transporte de pasajeros marítimo y de cabotaje"
+      "clasificacion_ciiu": "H5011 ** Transporte de pasajeros maritimo y de cabotaje"
     },
     {
-      "clasificacion_ciiu": "H5012 ** Transporte de carga marítimo y de cabotaje"
+      "clasificacion_ciiu": "H5012 ** Transporte de carga maritimo y de cabotaje"
     },
     {
-      "clasificacion_ciiu": "H5021 ** Transporte de pasajeros por vías de navegación interiores"
+      "clasificacion_ciiu": "H5021 ** Transporte de pasajeros por vias de navegacion interiores"
     },
     {
-      "clasificacion_ciiu": "H5022 ** Transporte de carga por vías de navegación interiores"
+      "clasificacion_ciiu": "H5022 ** Transporte de carga por vias de navegacion interiores"
     },
     {
-      "clasificacion_ciiu": "H5110 ** Transporte aéreo de pasajeros"
+      "clasificacion_ciiu": "H5110 ** Transporte aereo de pasajeros"
     },
     {
-      "clasificacion_ciiu": "H5120 ** Transporte aéreo de carga"
+      "clasificacion_ciiu": "H5120 ** Transporte aereo de carga"
     },
     {
-      "clasificacion_ciiu": "H5210 ** Almacenamiento y depósito"
+      "clasificacion_ciiu": "H5210 ** Almacenamiento y deposito"
     },
     {
       "clasificacion_ciiu": "H5221 ** Actividades de agencias de transporte de carga"
     },
     {
-      "clasificacion_ciiu": "H5222 ** Actividades de operadores turísticos"
+      "clasificacion_ciiu": "H5222 ** Actividades de operadores turisticos"
     },
     {
       "clasificacion_ciiu": "H5223 ** Actividades de servicios portuarios"
@@ -639,7 +639,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "H5310 ** Actividades postales nacionales"
     },
     {
-      "clasificacion_ciiu": "H5320 ** Actividades de correo y mensajería nacional y/o internacional"
+      "clasificacion_ciiu": "H5320 ** Actividades de correo y mensajeria nacional y/o internacional"
     },
     {
       "clasificacion_ciiu": "I5511 ** Alojamiento en hoteles"
@@ -657,13 +657,13 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "I5519 ** Otros tipos de alojamiento n.c.p."
     },
     {
-      "clasificacion_ciiu": "I5611 ** Actividades de restaurantes, cafeterías y establecimientos similares"
+      "clasificacion_ciiu": "I5611 ** Actividades de restaurantes, cafeterias y establecimientos similares"
     },
     {
-      "clasificacion_ciiu": "I5612 ** Actividades de preparación de comidas y bebidas en establecimientos que ofrecen servicio a la mesa"
+      "clasificacion_ciiu": "I5612 ** Actividades de preparacion de comidas y bebidas en establecimientos que ofrecen servicio a la mesa"
     },
     {
-      "clasificacion_ciiu": "I5613 ** Actividades de preparación de comidas y bebidas en establecimientos que ofrecen servicio de autoservicio"
+      "clasificacion_ciiu": "I5613 ** Actividades de preparacion de comidas y bebidas en establecimientos que ofrecen servicio de autoservicio"
     },
     {
       "clasificacion_ciiu": "I5619 ** Otros tipos de expendio de comidas y bebidas n.c.p."
@@ -675,64 +675,64 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "I5629 ** Actividades de otros servicios de comidas"
     },
     {
-      "clasificacion_ciiu": "I5630 ** Expendio de bebidas alcohólicas para el consumo dentro del establecimiento"
+      "clasificacion_ciiu": "I5630 ** Expendio de bebidas alcoholicas para el consumo dentro del establecimiento"
     },
     {
-      "clasificacion_ciiu": "J5811 ** Edición de libros"
+      "clasificacion_ciiu": "J5811 ** Edicion de libros"
     },
     {
-      "clasificacion_ciiu": "J5812 ** Edición de periódicos, revistas y otras publicaciones periódicas"
+      "clasificacion_ciiu": "J5812 ** Edicion de periodicos, revistas y otras publicaciones periodicas"
     },
     {
-      "clasificacion_ciiu": "J5813 ** Edición de directorios y listas de correo"
+      "clasificacion_ciiu": "J5813 ** Edicion de directorios y listas de correo"
     },
     {
-      "clasificacion_ciiu": "J5819 ** Otras actividades de edición"
+      "clasificacion_ciiu": "J5819 ** Otras actividades de edicion"
     },
     {
-      "clasificacion_ciiu": "J5820 ** Edición de programas de informática (software)"
+      "clasificacion_ciiu": "J5820 ** Edicion de programas de informatica (software)"
     },
     {
-      "clasificacion_ciiu": "J5911 ** Actividades de producción de películas cinematográficas, videos y programas de televisión"
+      "clasificacion_ciiu": "J5911 ** Actividades de produccion de peliculas cinematograficas, videos y programas de television"
     },
     {
-      "clasificacion_ciiu": "J5912 ** Actividades de posproducción de películas cinematográficas, videos y programas de televisión"
+      "clasificacion_ciiu": "J5912 ** Actividades de posproduccion de peliculas cinematograficas, videos y programas de television"
     },
     {
-      "clasificacion_ciiu": "J5913 ** Actividades de distribución de películas cinematográficas, videos y programas de televisión"
+      "clasificacion_ciiu": "J5913 ** Actividades de distribucion de peliculas cinematograficas, videos y programas de television"
     },
     {
-      "clasificacion_ciiu": "J5914 ** Actividades de exhibición de películas cinematográficas"
+      "clasificacion_ciiu": "J5914 ** Actividades de exhibicion de peliculas cinematograficas"
     },
     {
-      "clasificacion_ciiu": "J5920 ** Actividades de grabación de sonido y edición de música"
+      "clasificacion_ciiu": "J5920 ** Actividades de grabacion de sonido y edicion de musica"
     },
     {
-      "clasificacion_ciiu": "J6010 ** Actividades de radiodifusión"
+      "clasificacion_ciiu": "J6010 ** Actividades de radiodifusion"
     },
     {
-      "clasificacion_ciiu": "J6020 ** Actividades de programación y transmisión de televisión"
+      "clasificacion_ciiu": "J6020 ** Actividades de programacion y transmision de television"
     },
     {
-      "clasificacion_ciiu": "J6110 ** Actividades de telecomunicaciones alámbricas"
+      "clasificacion_ciiu": "J6110 ** Actividades de telecomunicaciones alambricas"
     },
     {
-      "clasificacion_ciiu": "J6120 ** Actividades de telecomunicaciones inalámbricas"
+      "clasificacion_ciiu": "J6120 ** Actividades de telecomunicaciones inalambricas"
     },
     {
-      "clasificacion_ciiu": "J6130 ** Actividades de telecomunicaciones por satélite"
+      "clasificacion_ciiu": "J6130 ** Actividades de telecomunicaciones por satelite"
     },
     {
       "clasificacion_ciiu": "J6190 ** Otras actividades de telecomunicaciones"
     },
     {
-      "clasificacion_ciiu": "J6201 ** Actividades de consultoría de gestión de proyectos de informática"
+      "clasificacion_ciiu": "J6201 ** Actividades de consultoria de gestion de proyectos de informatica"
     },
     {
-      "clasificacion_ciiu": "J6202 ** Actividades de consultoría de informática"
+      "clasificacion_ciiu": "J6202 ** Actividades de consultoria de informatica"
     },
     {
-      "clasificacion_ciiu": "J6209 ** Otras actividades de servicios de tecnología de la información y actividades conexas"
+      "clasificacion_ciiu": "J6209 ** Otras actividades de servicios de tecnologia de la informacion y actividades conexas"
     },
     {
       "clasificacion_ciiu": "J6311 ** Procesamiento de datos, alojamiento (hosting) y actividades conexas"
@@ -744,7 +744,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "J6391 ** Actividades de agencias de noticias"
     },
     {
-      "clasificacion_ciiu": "J6399 ** Otras actividades de servicios de información n.c.p."
+      "clasificacion_ciiu": "J6399 ** Otras actividades de servicios de informacion n.c.p."
     },
     {
       "clasificacion_ciiu": "K6411 ** Bancos centrales"
@@ -753,7 +753,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "K6412 ** Bancos comerciales"
     },
     {
-      "clasificacion_ciiu": "K6419 ** Otras actividades de intermediación monetaria n.c.p."
+      "clasificacion_ciiu": "K6419 ** Otras actividades de intermediacion monetaria n.c.p."
     },
     {
       "clasificacion_ciiu": "K6420 ** Actividades de sociedades de cartera (holding)"
@@ -765,7 +765,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "K6491 ** Actividades de leasing financiero"
     },
     {
-      "clasificacion_ciiu": "K6492 ** Actividades de financiación especializada"
+      "clasificacion_ciiu": "K6492 ** Actividades de financiacion especializada"
     },
     {
       "clasificacion_ciiu": "K6499 ** Otras actividades de servicios financieros, excepto las de seguros y fondos de pensiones"
@@ -783,7 +783,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "K6530 ** Fondos de pensiones"
     },
     {
-      "clasificacion_ciiu": "K6611 ** Administración de mercados financieros"
+      "clasificacion_ciiu": "K6611 ** Administracion de mercados financieros"
     },
     {
       "clasificacion_ciiu": "K6612 ** Actividades de comisionistas de bolsa de valores"
@@ -813,40 +813,40 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "M6910 ** Actividades jurídicas"
     },
     {
-      "clasificacion_ciiu": "M6920 ** Actividades de contabilidad, teneduría de libros y auditoría; asesoramiento fiscal"
+      "clasificacion_ciiu": "M6920 ** Actividades de contabilidad, teneduria de libros y auditoria; asesoramiento fiscal"
     },
     {
       "clasificacion_ciiu": "M7010 ** Actividades de administración empresarial"
     },
     {
-      "clasificacion_ciiu": "M7020 ** Actividades de consultoría de gestión"
+      "clasificacion_ciiu": "M7020 ** Actividades de consultoria de gestion"
     },
     {
-      "clasificacion_ciiu": "M7110 ** Actividades de arquitectura e ingeniería y actividades conexas de consultoría técnica"
+      "clasificacion_ciiu": "M7110 ** Actividades de arquitectura e ingenieria y actividades conexas de consultoria tecnica"
     },
     {
       "clasificacion_ciiu": "M7120 ** Ensayos y análisis técnicos"
     },
     {
-      "clasificacion_ciiu": "M7210 ** Investigación y desarrollo experimental en el campo de las ciencias naturales y la ingeniería"
+      "clasificacion_ciiu": "M7210 ** Investigacion y desarrollo experimental en el campo de las ciencias naturales y la ingenieria"
     },
     {
-      "clasificacion_ciiu": "M7220 ** Investigación y desarrollo experimental en el campo de las ciencias sociales y las humanidades"
+      "clasificacion_ciiu": "M7220 ** Investigacion y desarrollo experimental en el campo de las ciencias sociales y las humanidades"
     },
     {
       "clasificacion_ciiu": "M7310 ** Publicidad"
     },
     {
-      "clasificacion_ciiu": "M7320 ** Estudios de mercado y encuestas de opinión pública"
+      "clasificacion_ciiu": "M7320 ** Estudios de mercado y encuestas de opinion publica"
     },
     {
-      "clasificacion_ciiu": "M7410 ** Actividades de diseño especializado"
+      "clasificacion_ciiu": "M7410 ** Actividades de diseno especializado"
     },
     {
-      "clasificacion_ciiu": "M7420 ** Actividades de fotografía"
+      "clasificacion_ciiu": "M7420 ** Actividades de fotografia"
     },
     {
-      "clasificacion_ciiu": "M7490 ** Otras actividades profesionales, científicas y técnicas n.c.p."
+      "clasificacion_ciiu": "M7490 ** Otras actividades profesionales, cientificas y tecnicas n.c.p."
     },
     {
       "clasificacion_ciiu": "M7500 ** Actividades veterinarias"
@@ -882,7 +882,7 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "N7911 ** Actividades de agencias de viajes"
     },
     {
-      "clasificacion_ciiu": "N7912 ** Actividades de operadores turísticos"
+      "clasificacion_ciiu": "N7912 ** Actividades de operadores turisticos"
     },
     {
       "clasificacion_ciiu": "N7990 ** Otros servicios de reservas y actividades conexas"
@@ -960,37 +960,37 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "P8522 ** Educación básica secundaria"
     },
     {
-      "clasificacion_ciiu": "P8523 ** Educación media"
+      "clasificacion_ciiu": "P8523 ** Educacion media"
     },
     {
-      "clasificacion_ciiu": "P8530 ** Establecimientos que combinan diferentes niveles de educación inicial, preescolar, básica primaria, básica secundaria y media"
+      "clasificacion_ciiu": "P8530 ** Establecimientos que combinan diferentes niveles de educacion inicial, preescolar, basica primaria, basica secundaria y media"
     },
     {
-      "clasificacion_ciiu": "P8541 ** Educación técnica profesional"
+      "clasificacion_ciiu": "P8541 ** Educacion tecnica profesional"
     },
     {
-      "clasificacion_ciiu": "P8542 ** Educación tecnológica"
+      "clasificacion_ciiu": "P8542 ** Educacion tecnologica"
     },
     {
-      "clasificacion_ciiu": "P8543 ** Educación de instituciones universitarias o de escuelas tecnológicas"
+      "clasificacion_ciiu": "P8543 ** Educacion de instituciones universitarias o de escuelas tecnologicas"
     },
     {
-      "clasificacion_ciiu": "P8544 ** Educación de universidades"
+      "clasificacion_ciiu": "P8544 ** Educacion de universidades"
     },
     {
-      "clasificacion_ciiu": "P8551 ** Educación académica no formal"
+      "clasificacion_ciiu": "P8551 ** Educacion academica no formal"
     },
     {
-      "clasificacion_ciiu": "P8552 ** Enseñanza deportiva y recreativa"
+      "clasificacion_ciiu": "P8552 ** Ensenanza deportiva y recreativa"
     },
     {
-      "clasificacion_ciiu": "P8553 ** Enseñanza cultural"
+      "clasificacion_ciiu": "P8553 ** Ensenanza cultural"
     },
     {
-      "clasificacion_ciiu": "P8559 ** Otros tipos de educación n.c.p."
+      "clasificacion_ciiu": "P8559 ** Otros tipos de educacion n.c.p."
     },
     {
-      "clasificacion_ciiu": "P8560 ** Actividades de apoyo a la educación"
+      "clasificacion_ciiu": "P8560 ** Actividades de apoyo a la educacion"
     },
     {
       "clasificacion_ciiu": "Q8610 ** Actividades de hospitales"
@@ -1002,10 +1002,10 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "Q8622 ** Actividades de la práctica odontológica"
     },
     {
-      "clasificacion_ciiu": "Q8691 ** Actividades de apoyo diagnóstico"
+      "clasificacion_ciiu": "Q8691 ** Actividades de apoyo diagnostico"
     },
     {
-      "clasificacion_ciiu": "Q8692 ** Actividades de apoyo terapéutico"
+      "clasificacion_ciiu": "Q8692 ** Actividades de apoyo terapeutico"
     },
     {
       "clasificacion_ciiu": "Q8699 ** Otras actividades de atención de la salud humana n.c.p."
@@ -1089,34 +1089,34 @@ export const CiiuOptions = [
       "clasificacion_ciiu": "S9499 ** Actividades de otras asociaciones n.c.p."
     },
     {
-      "clasificacion_ciiu": "S9511 ** Mantenimiento y reparación de computadores y equipo periférico"
+      "clasificacion_ciiu": "S9511 ** Mantenimiento y reparacion de computadores y equipo periferico"
     },
     {
-      "clasificacion_ciiu": "S9512 ** Mantenimiento y reparación de equipos de comunicación"
+      "clasificacion_ciiu": "S9512 ** Mantenimiento y reparacion de equipos de comunicacion"
     },
     {
-      "clasificacion_ciiu": "S9521 ** Reparación de aparatos electrónicos de consumo"
+      "clasificacion_ciiu": "S9521 ** Reparacion de aparatos electronicos de consumo"
     },
     {
-      "clasificacion_ciiu": "S9522 ** Reparación de aparatos de uso doméstico y equipo de jardinería y para el hogar"
+      "clasificacion_ciiu": "S9522 ** Reparacion de aparatos de uso domestico y equipo de jardineria y para el hogar"
     },
     {
-      "clasificacion_ciiu": "S9523 ** Reparación de calzado y artículos de cuero"
+      "clasificacion_ciiu": "S9523 ** Reparacion de calzado y articulos de cuero"
     },
     {
-      "clasificacion_ciiu": "S9524 ** Reparación de muebles y enseres domésticos"
+      "clasificacion_ciiu": "S9524 ** Reparacion de muebles y enseres domesticos"
     },
     {
-      "clasificacion_ciiu": "S9529 ** Reparación de otros efectos personales y enseres domésticos"
+      "clasificacion_ciiu": "S9529 ** Reparacion de otros efectos personales y enseres domesticos"
     },
     {
       "clasificacion_ciiu": "S9601 ** Lavado y limpieza de prendas de vestir y productos textiles"
     },
     {
-      "clasificacion_ciiu": "S9602 ** Peluquería y otros tratamientos de belleza"
+      "clasificacion_ciiu": "S9602 ** Peluqueria y otros tratamientos de belleza"
     },
     {
-      "clasificacion_ciiu": "S9603 ** Actividades funerarias y conexas"
+      "clasificacion_ciiu": "S9603 ** Pompas funebres y actividades relacionadas"
     },
     {
       "clasificacion_ciiu": "S9609 ** Otras actividades de servicios personales n.c.p."
