@@ -143,8 +143,6 @@ export default defineType({
       title: '¿La empresa está certificada con el sello Friendly Bizz?',
       type: 'boolean',
       initialValue: false,
-      // show field if companySize is grande
-      hidden: ({document}) => document?.companySize !== 'grande',
     }),
 
     defineField({
