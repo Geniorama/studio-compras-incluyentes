@@ -1,5 +1,4 @@
 import {defineType, defineField} from 'sanity'
-import {CiiuOptions} from '../data/ciiu-options'
 
 export default defineType({
   name: 'company',
@@ -41,12 +40,6 @@ export default defineType({
       name: 'ciiu',
       title: 'Código CIIU',
       type: 'string',
-      options: {
-        list: CiiuOptions.map(option => ({
-          title: option.clasificacion_ciiu,
-          value: option.clasificacion_ciiu,
-        })),
-      },
       validation: (Rule) => Rule.required(),
     }),
     defineField({
