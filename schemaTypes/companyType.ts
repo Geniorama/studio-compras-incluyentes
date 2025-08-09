@@ -139,6 +139,14 @@ export default defineType({
     }),
 
     defineField({
+      name: 'membership',
+      title: '¿Tienes una membresía activa?',
+      type: 'boolean',
+      readOnly: true,
+      initialValue: false,
+    }),
+
+    defineField({
       // annual revenue
       name: 'annualRevenue',
       title: 'Ingresos anuales',

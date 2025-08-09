@@ -104,14 +104,6 @@ export default defineType({
       readOnly: true,
     }),
     defineField({
-      name: 'membership',
-      title: '¿Tienes una membresía activa?',
-      type: 'boolean',
-      readOnly: true,
-      initialValue: false,
-      description: 'Campo diligenciado por el usuario en el formulario de registro.',
-    }),
-    defineField({
       name: 'dataTreatmentConsent',
       title: 'Aceptación de tratamiento de datos personales',
       type: 'boolean',
