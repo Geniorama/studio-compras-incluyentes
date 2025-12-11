@@ -146,6 +146,16 @@ export default defineType({
       initialValue: false,
     }),
 
+    // Boolean inclusión DEI
+    defineField({
+      name: 'inclusionDEI',
+      title: 'Empresa comprometida con la equidad e inclusión DEI',
+      type: 'boolean',
+      initialValue: false,
+    }),
+
+    // Boolean inclusión DEI
+
     defineField({
       // annual revenue
       name: 'annualRevenue',
