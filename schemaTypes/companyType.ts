@@ -37,6 +37,64 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'chamberOfCommerce',
+      title: 'Cámara de comercio',
+      type: 'file',
+      options: {
+        accept: '.pdf',
+      },
+    }),
+    defineField({
+      name: 'chamberOfCommerceValidated',
+      title: 'Estado de validación - Cámara de comercio',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Pendiente', value: 'pendiente' },
+          { title: 'En progreso', value: 'en-progreso' },
+          { title: 'Válido', value: 'valido' },
+          { title: 'Inválido', value: 'invalido' },
+        ],
+      },
+      initialValue: 'pendiente',
+      description: 'Estado de validación del documento de Cámara de comercio',
+    }),
+    defineField({
+      name: 'chamberOfCommerceComments',
+      title: 'Comentarios - Cámara de comercio',
+      type: 'text',
+      description: 'Comentarios sobre la validación del documento de Cámara de comercio',
+    }),
+    defineField({
+      name: 'dianDocument',
+      title: 'Documento Identificación (DIAN)',
+      type: 'file',
+      options: {
+        accept: '.pdf',
+      },
+    }),
+    defineField({
+      name: 'dianDocumentValidated',
+      title: 'Estado de validación - Documento Identificación (DIAN)',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Pendiente', value: 'pendiente' },
+          { title: 'En progreso', value: 'en-progreso' },
+          { title: 'Válido', value: 'valido' },
+          { title: 'Inválido', value: 'invalido' },
+        ],
+      },
+      initialValue: 'pendiente',
+      description: 'Estado de validación del documento de DIAN',
+    }),
+    defineField({
+      name: 'dianDocumentComments',
+      title: 'Comentarios - Documento Identificación (DIAN)',
+      type: 'text',
+      description: 'Comentarios sobre la validación del documento de DIAN',
+    }),
+    defineField({
       name: 'ciiu',
       title: 'Código CIIU',
       type: 'string',
@@ -64,6 +122,38 @@ export default defineType({
       name: 'city',
       title: 'Ciudad',
       type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'country',
+      title: 'País',
+      type: 'string',
+      // Formato ISO 3166-1 alpha-2
+      options: {
+        list: [
+          { title: 'Argentina', value: 'AR' },
+          { title: 'Bolivia', value: 'BO' },
+          { title: 'Brasil', value: 'BR' },
+          { title: 'Chile', value: 'CL' },
+          { title: 'Colombia', value: 'CO' },
+          { title: 'Costa Rica', value: 'CR' },
+          { title: 'Cuba', value: 'CU' },
+          { title: 'República Dominicana', value: 'DO' },
+          { title: 'Ecuador', value: 'EC' },
+          { title: 'El Salvador', value: 'SV' },
+          { title: 'Guatemala', value: 'GT' },
+          { title: 'Haití', value: 'HT' },
+          { title: 'Honduras', value: 'HN' },
+          { title: 'México', value: 'MX' },
+          { title: 'Nicaragua', value: 'NI' },
+          { title: 'Panamá', value: 'PA' },
+          { title: 'Paraguay', value: 'PY' },
+          { title: 'Perú', value: 'PE' },
+          { title: 'Puerto Rico', value: 'PR' },
+          { title: 'Uruguay', value: 'UY' },
+          { title: 'Venezuela', value: 'VE' },
+        ],
+      },
       validation: (Rule) => Rule.required(),
     }),
     defineField({
@@ -95,7 +185,8 @@ export default defineType({
     defineField({
       name: 'peopleGroup',
       title: 'Grupo poblacional',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'string'}],
       options: {
         list: [
           { title: 'LGBTIQ+', value: 'lgbtiq' },
@@ -127,9 +218,13 @@ export default defineType({
       name: 'otherPeopleGroup',
       title: 'Especificar otro grupo poblacional',
       type: 'string',
-      hidden: ({document}) => document?.peopleGroup !== 'otro',
+      hidden: ({document}) => {
+        const peopleGroup = document?.peopleGroup;
+        return !Array.isArray(peopleGroup) || !peopleGroup.includes('otro');
+      },
       validation: (Rule) => Rule.custom((value, context) => {
-        if (context.document?.peopleGroup === 'otro' && !value) {
+        const peopleGroup = context.document?.peopleGroup;
+        if (Array.isArray(peopleGroup) && peopleGroup.includes('otro') && !value) {
           return 'Debe especificar el grupo poblacional cuando selecciona "Otro"';
         }
         return true;
