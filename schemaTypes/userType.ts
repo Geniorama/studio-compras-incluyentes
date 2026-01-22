@@ -87,7 +87,12 @@ export default defineType({
       title: 'Rol',
       type: 'string',
       options: {
-        list: [{title: 'Administrador', value: 'admin'}, {title: 'Usuario', value: 'user'}],
+        list: [
+          {title: 'Administrador', value: 'admin'}, 
+          {title: 'Usuario', value: 'user'},
+          {title: 'Director de compras', value: 'director-compras'},
+          {title: 'Representante corporativo', value: 'representante-corporativo'},
+        ],
       },
       validation: (Rule) => Rule.required(),
     }),

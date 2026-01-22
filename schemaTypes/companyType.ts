@@ -66,16 +66,16 @@ export default defineType({
       description: 'Comentarios sobre la validación del documento de Cámara de comercio',
     }),
     defineField({
-      name: 'dianDocument',
-      title: 'Documento Identificación (DIAN)',
+      name: 'taxIdentificationDocument',
+      title: 'Documento de identificación tributaria',
       type: 'file',
       options: {
         accept: '.pdf',
       },
     }),
     defineField({
-      name: 'dianDocumentValidated',
-      title: 'Estado de validación - Documento Identificación (DIAN)',
+      name: 'taxIdentificationDocumentValidated',
+      title: 'Estado de validación - Documento de identificación tributaria',
       type: 'string',
       options: {
         list: [
@@ -86,13 +86,13 @@ export default defineType({
         ],
       },
       initialValue: 'pendiente',
-      description: 'Estado de validación del documento de DIAN',
+      description: 'Estado de validación del documento de identificación tributaria',
     }),
     defineField({
-      name: 'dianDocumentComments',
-      title: 'Comentarios - Documento Identificación (DIAN)',
+      name: 'taxIdentificationDocumentComments',
+      title: 'Comentarios - Documento de identificación tributaria',
       type: 'text',
-      description: 'Comentarios sobre la validación del documento de DIAN',
+      description: 'Comentarios sobre la validación del documento de identificación tributaria',
     }),
     defineField({
       name: 'ciiu',
