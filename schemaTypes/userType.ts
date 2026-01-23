@@ -77,12 +77,6 @@ export default defineType({
     }),
     // Información de autenticación
     defineField({
-      name: 'firebaseUid',
-      title: 'Firebase UID',
-      type: 'string',
-      readOnly: true,
-    }),
-    defineField({
       name: 'role',
       title: 'Rol',
       type: 'string',
@@ -92,9 +86,19 @@ export default defineType({
           {title: 'Usuario', value: 'user'},
           {title: 'Director de compras', value: 'director-compras'},
           {title: 'Representante corporativo', value: 'representante-corporativo'},
+          {title: 'Miembro', value: 'member'},
         ],
       },
+      description: 'El rol "Miembro" no requiere autenticación ni se crea en Firebase. Solo se usa su información dentro de la compañía.',
       validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'firebaseUid',
+      title: 'Firebase UID',
+      type: 'string',
+      readOnly: true,
+      description: 'Solo se crea para roles que requieren autenticación (no aplica para el rol "Miembro").',
+      hidden: ({document}) => document?.role === 'member',
     }),
     defineField({
       name: 'createdAt',
@@ -113,14 +117,42 @@ export default defineType({
       title: 'Aceptación de tratamiento de datos personales',
       type: 'boolean',
       description: 'Debes aceptar el tratamiento de tus datos personales para registrarte.',
-      validation: (Rule) => Rule.required().custom(value => value === true ? true : 'Debes aceptar el tratamiento de datos personales'),
+      validation: (Rule) => Rule.custom((value, context) => {
+        const role = context.document?.role;
+        // El rol "member" no requiere consentimiento ya que no inicia sesión
+        if (role === 'member') {
+          return true;
+        }
+        return value === true ? true : 'Debes aceptar el tratamiento de datos personales';
+      }),
     }),
     defineField({
       name: 'infoVisibilityConsent',
       title: 'Autorización de visibilidad de información',
       type: 'boolean',
       description: 'Autorizo que mi información sea visible en la plataforma para otros usuarios y empresas.',
-      validation: (Rule) => Rule.required().custom(value => value === true ? true : 'Debes autorizar la visibilidad de tu información para continuar'),
+      validation: (Rule) => Rule.custom((value, context) => {
+        const role = context.document?.role;
+        // El rol "member" no requiere consentimiento ya que no inicia sesión
+        if (role === 'member') {
+          return true;
+        }
+        return value === true ? true : 'Debes autorizar la visibilidad de tu información para continuar';
+      }),
+    }),
+    defineField({
+      name: 'publicProfile',
+      title: 'Perfil público',
+      type: 'boolean',
+      description: 'Activa esta opción para que tu perfil sea visible públicamente en la plataforma.',
+      initialValue: false,
+    }),
+    // Notas internas
+    defineField({
+      name: 'internalNotes',
+      title: 'Notas internas',
+      type: 'text',
+      description: 'Notas internas para uso administrativo. No son visibles para el usuario.',
     }),
   ],
   preview: {

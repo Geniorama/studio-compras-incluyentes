@@ -18,6 +18,12 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'description',
+      title: 'Descripción de la empresa',
+      type: 'text',
+      description: 'Descripción general de la empresa, sus servicios, productos y valores.',
+    }),
+    defineField({
       name: 'typeDocumentCompany',
       title: 'Tipo de documento empresa',
       type: 'string',
@@ -262,7 +268,12 @@ export default defineType({
       initialValue: false,
     }),
 
-    // Boolean inclusión DEI
+    defineField({
+      name: 'diverseSupplier',
+      title: 'Proveedora Diversa',
+      type: 'boolean',
+      initialValue: false,
+    }),
 
     defineField({
       // annual revenue
@@ -301,6 +312,13 @@ export default defineType({
       name: 'xtwitter',
       title: 'Twitter',
       type: 'url',
+    }),
+    // Notas internas
+    defineField({
+      name: 'internalNotes',
+      title: 'Notas internas',
+      type: 'text',
+      description: 'Notas internas para uso administrativo. No son visibles públicamente.',
     }),
     // Campos de auditoría
     defineField({
