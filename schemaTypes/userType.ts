@@ -155,6 +155,18 @@ export default defineType({
       readOnly: true,
     }),
     defineField({
+      name: 'createdBy',
+      title: 'Creado por',
+      type: 'reference',
+      to: [{type: 'user'}],
+      description:
+        'Usuario que creó este registro. Si está definido, el usuario fue creado por un Superadmin desde el panel de administración.',
+      readOnly: true,
+      options: {
+        filter: 'role == "superadmin"',
+      },
+    }),
+    defineField({
       name: 'dataTreatmentConsent',
       title: 'Aceptación de tratamiento de datos personales',
       type: 'boolean',

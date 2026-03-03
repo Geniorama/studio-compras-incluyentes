@@ -63,6 +63,18 @@ export default defineType({
       type: 'datetime',
       readOnly: true,
     }),
+    defineField({
+      name: 'createdBy',
+      title: 'Creado por',
+      type: 'reference',
+      to: [{type: 'user'}],
+      description:
+        'Usuario que creó este registro. Si está definido, la categoría fue creada por un Superadmin desde el panel de administración.',
+      readOnly: true,
+      options: {
+        filter: 'role == "superadmin"',
+      },
+    }),
   ],
   preview: {
     select: {
