@@ -38,8 +38,14 @@ export default defineType({
       title: 'Empresa destinataria',
       type: 'reference',
       to: [{ type: 'company' }],
-      description: 'Empresa que recibe el mensaje',
-      validation: Rule => Rule.required()
+      description: 'Empresa que recibe el mensaje (opcional si el mensaje es a una persona)'
+    },
+    {
+      name: 'recipientUser',
+      title: 'Usuario destinatario (mensaje persona a persona)',
+      type: 'reference',
+      to: [{ type: 'user' }],
+      description: 'Cuando se envía a una persona en lugar de a una empresa. Los Miembros reciben el mensaje por email.'
     },
     {
       name: 'createdAt',
@@ -68,6 +74,7 @@ export default defineType({
       options: {
         list: [
           { title: 'Mensaje entre empresas', value: 'company_message' },
+          { title: 'Mensaje persona a persona', value: 'person_message' },
           { title: 'Notificación', value: 'notification' },
           { title: 'Soporte', value: 'support' },
           { title: 'Alerta', value: 'alert' }
@@ -90,14 +97,17 @@ export default defineType({
       sender: 'sender.firstName',
       senderCompany: 'senderCompany.nameCompany',
       recipientCompany: 'recipientCompany.nameCompany',
+      recipientUser: 'recipientUser.firstName',
+      recipientUserLast: 'recipientUser.lastName',
       subject: 'subject',
       content: 'content'
     },
     prepare(selection) {
-      const {sender, senderCompany, recipientCompany, subject, content} = selection;
+      const {sender, senderCompany, recipientCompany, recipientUser, recipientUserLast, subject, content} = selection;
+      const recipient = recipientCompany || (recipientUser ? `${recipientUser} ${recipientUserLast || ''}`.trim() : 'N/A');
       return {
         title: subject || content?.substring(0, 50) + '...',
-        subtitle: `${senderCompany || 'N/A'} → ${recipientCompany || 'N/A'} (por: ${sender || 'N/A'})`
+        subtitle: `${senderCompany || 'N/A'} → ${recipient} (por: ${sender || 'N/A'})`
       };
     }
   },

@@ -45,7 +45,16 @@ La guía funcional describe cómo operar el Studio Sanity de Compras Incluyentes
 5. Definir `role` (`Administrador` para responsables internos, `Usuario` para miembros estándar).  
 6. Subir foto opcional.  
 7. Asegurarse de que ambos consentimientos (`dataTreatmentConsent`, `infoVisibilityConsent`) estén marcados.  
-8. Guardar; los campos `firebaseUid`, `createdAt`, `updatedAt` se actualizan mediante integraciones externas o scripts.
+8. Activar `publicProfile` si el usuario desea que su perfil sea visible y que otros puedan agregarlo como favorito.  
+9. Guardar; los campos `firebaseUid`, `createdAt`, `updatedAt` se actualizan mediante integraciones externas o scripts.
+
+### 2.1. Usuarios favoritos
+
+Los usuarios pueden marcar como favoritos a otros usuarios que tengan perfil público (`publicProfile == true`).
+
+1. Editar el documento del usuario que quiere agregar favoritos.  
+2. En el campo `Usuarios favoritos`, buscar y seleccionar usuarios; solo se listan aquellos con perfil público.  
+3. La lista de favoritos se almacena en el documento del usuario y puede consultarse en la plataforma.
 
 ### 3. Gestión del catálogo (productos y servicios)
 

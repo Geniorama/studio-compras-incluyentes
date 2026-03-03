@@ -10,7 +10,13 @@ export default defineType({
       title: 'Empresa',
       type: 'reference',
       to: [{type: 'company'}],
-      validation: (Rule) => Rule.required(),
+      description: 'Opcional para Superadmin. Requerido para el resto de roles.',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'superadmin') return true
+          return value ? true : 'La empresa es requerida'
+        }),
     }),
     // Información personal
     defineField({
@@ -34,7 +40,13 @@ export default defineType({
       name: 'position',
       title: 'Cargo',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      description: 'Opcional para Superadmin.',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'superadmin') return true
+          return value ? true : 'El cargo es requerido'
+        }),
     }),
     defineField({
       name: 'email',
@@ -46,7 +58,13 @@ export default defineType({
       name: 'phone',
       title: 'Número de teléfono',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      description: 'Opcional para Superadmin.',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'superadmin') return true
+          return value ? true : 'El teléfono es requerido'
+        }),
     }),
     defineField({
       name: 'typeDocument',
@@ -58,18 +76,31 @@ export default defineType({
           { title: 'Cédula de Extranjería', value: 'ce' },
         ],
       },
-      validation: (Rule) => Rule.required(),
+      description: 'Opcional para Superadmin.',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'superadmin') return true
+          return value ? true : 'El tipo de documento es requerido'
+        }),
     }),
     defineField({
       name: 'numDocument',
       title: 'Número de documento personal',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      description: 'Opcional para Superadmin.',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'superadmin') return true
+          return value ? true : 'El número de documento es requerido'
+        }),
     }),
     defineField({
       name: 'photo',
       title: 'Foto de perfil',
       type: 'image',
+      readOnly: false,
       options: {
         hotspot: true,
       },
@@ -82,6 +113,7 @@ export default defineType({
       type: 'string',
       options: {
         list: [
+          {title: 'Super Administrador', value: 'superadmin'},
           {title: 'Administrador', value: 'admin'}, 
           {title: 'Usuario', value: 'user'},
           {title: 'Director de compras', value: 'director-compras'},
@@ -89,16 +121,26 @@ export default defineType({
           {title: 'Miembro', value: 'member'},
         ],
       },
-      description: 'El rol "Miembro" no requiere autenticación ni se crea en Firebase. Solo se usa su información dentro de la compañía.',
+      description:
+        'Superadmin: acceso al panel de administración global. Requiere firstName, lastName, email y firebaseUid. El rol "Miembro" no requiere autenticación ni se crea en Firebase.',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: 'firebaseUid',
       title: 'Firebase UID',
       type: 'string',
-      readOnly: true,
-      description: 'Solo se crea para roles que requieren autenticación (no aplica para el rol "Miembro").',
+      description:
+        'Solo se crea para roles que requieren autenticación (no aplica para el rol "Miembro"). Los administradores pueden editarlo para corregir sincronización. Requerido para Superadmin.',
       hidden: ({document}) => document?.role === 'member',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const role = context.document?.role
+          if (role === 'member') return true
+          if (role === 'superadmin') {
+            return value ? true : 'Firebase UID es requerido para Superadmin (debe coincidir con el usuario en Firebase Auth)'
+          }
+          return true
+        }),
     }),
     defineField({
       name: 'createdAt',
@@ -147,6 +189,52 @@ export default defineType({
       description: 'Activa esta opción para que tu perfil sea visible públicamente en la plataforma.',
       initialValue: false,
     }),
+    defineField({
+      name: 'favorites',
+      title: 'Usuarios favoritos',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'user'}],
+          options: {
+            filter: ({document}) => {
+              if (!document?._id) {
+                return {filter: 'publicProfile == true', params: {}}
+              }
+              return {
+                filter: 'publicProfile == true && _id != $currentId',
+                params: {currentId: document._id},
+              }
+            },
+          },
+        },
+      ],
+      description:
+        'Usuarios que has marcado como favoritos. Solo puedes agregar usuarios con perfil público. Podrás ver tu lista de favoritos en la plataforma.',
+      validation: (Rule) =>
+        Rule.custom((favorites) => {
+          if (!Array.isArray(favorites)) return true
+          const ids = (favorites as Array<{_ref?: string}>)
+            .map((ref) => ref?._ref)
+            .filter((id): id is string => Boolean(id))
+          const unique = new Set(ids)
+          if (ids.length !== unique.size) {
+            return 'No puedes agregar al mismo usuario más de una vez'
+          }
+          return true
+        }),
+    }),
+
+    // notifyEmailMessages 
+    defineField({
+      name: 'notifyEmailMessages',
+      title: 'Notificar mensajes por correo electrónico',
+      type: 'boolean',
+      description: 'Notificar mensajes por correo electrónico.',
+      initialValue: false,
+    }),
+
     // Notas internas
     defineField({
       name: 'internalNotes',

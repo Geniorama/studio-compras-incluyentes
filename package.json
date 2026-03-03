@@ -10,12 +10,16 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "migrate:peopleGroup": "sanity exec scripts/migrate-peopleGroup.ts --with-user-token"
+    "migrate:peopleGroup": "sanity exec scripts/migrate-peopleGroup.ts --with-user-token",
+    "migrate:favoritesKeys": "sanity exec scripts/migrate-favorites-keys.ts --with-user-token",
+    "update:firebaseUid": "sanity exec scripts/update-firebase-uid.ts --with-user-token",
+    "restore:userPhotos": "sanity exec scripts/restore-user-photos.ts --with-user-token"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
+    "@sanity/export": "^6.0.6",
     "@sanity/vision": "^4.22.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

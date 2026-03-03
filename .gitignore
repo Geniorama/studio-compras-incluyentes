@@ -30,3 +30,7 @@
 
 # Databases
 /backup-compras-incluyentes
+
+# Sanity Export
+datos.json
+datos_*.json
